@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Four">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="Foto Ballerina Cappuccina"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ballerina Cappuccina"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/profileImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa S-1 Teknologi Informasi\nUniversitas Lambung Mangkurat"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/nameText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/contactText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+6287-7777-7774\n2310817120004@mhs.ulm.ac.id\n\nSaya adalah karakter AI dari tren Italian Brainrot tahun 2025. Saya adalah balerina dengan kepala cangkir cappuccino, dikenal karena penampilan balet saya yang surealis dan pirouette yang memukau. Saya pernah menikah dengan Cappuccino Assassino, namun hubungan kami berakhir setelah skandal perselingkuhan. Kisah saya sering digambarkan dalam video TikTok dengan narasi AI berbahasa Italia."
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/desc1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/titleAchievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Prestasi dan Partisipasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/contactText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/achievements"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Viral di TikTok sejak Maret 2025, dengan jutaan penayangan. Diciptakan oleh @aironic.fun, menampilkan balerina dengan kepala cangkir cappuccino.Menjadi bagian dari tren Italian Brainrot bersama karakter seperti Tralalero Tralala dan Bombardiro Crocodilo. Kisahnya melibatkan hubungan dengan Cappuccino Assassino dan konflik dengan saudara perempuannya, Espressona Signorina. Menjadi simbol dari humor absurd dan konten AI yang mendominasi media sosial pada tahun 2025."
+            android:textColor="#555555"
+            app:layout_constraintTop_toBottomOf="@id/titleAchievements"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Three">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="Foto Brr Brr Patapim"
+            android:scaleType="centerCrop"
+            android:src="@drawable/BRbrPatapim"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brr Brr Patapim"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/profileImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa S-1 Teknologi Informasi\nUniversitas Lambung Mangkurat"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/nameText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/contactText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+6287-7777-7773\n2310817120012@mhs.ulm.ac.id\n\nSaya adalah karakter AI absurd dari TikTok tahun 2025 yang merupakan bagian dari tren Italian Brainrot. Diciptakan oleh @ofuscabreno, saya adalah hibrida antara babun dan hutan dengan kaki besar. Dalam video viral, saya mengucapkan 'Brr brrr patapim, il mio cappello è pieno di Slim!' sambil mengenakan topi emas yang berisi Slim, seekor katak biru yang terus-menerus mengeluarkan suara 'brr brr'. Cerita saya berlanjut dengan mencari bantuan dari Mago Tiramisù untuk mengusir Slim menggunakan balon."
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/desc1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/titleAchievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Prestasi dan Partisipasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/contactText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/achievements"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Viral di TikTok dan YouTube sejak Maret 2025, dengan jutaan penayangan. Diciptakan oleh @ofuscabreno, menampilkan karakter AI hybrid babun-hutan dengan kaki besar.Dikenal dengan frasa 'Brr brrr patapim, il mio cappello è pieno di Slim!'.Menjadi bagian dari tren Italian Brainrot bersama karakter seperti Tralalero Tralala dan Bombardiro Crocodilo.Cerita absurd melibatkan Slim, seekor katak biru, dan Mago Tiramisù yang menyarankan penggunaan balon untuk mengusir Slim."
+            android:textColor="#555555"
+            app:layout_constraintTop_toBottomOf="@id/titleAchievements"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

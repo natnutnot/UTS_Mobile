@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".One">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="Foto Grz"
+            android:scaleType="centerCrop"
+            android:src="@drawable/grz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natalie Grace Katiandagho"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/profileImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa S-1 Teknologi Informasi\nUniversitas Lambung Mangkurat"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/nameText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/contactText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+6287-7777-7777\n2310817120003@mhs.ulm.ac.id\n\nSaya seorang mahasiswi S-1 Teknologi Informasi Universitas Lambung Mangkurat dengan minat dalam mengajar. Dalam perjalanan akademik saya, saya cukup aktif dalam berorganisasi dan mengikuti beberapa kompetisi yang sesuai dengan minat saya. Saya juga merupakan orang yang pekerja keras dan menyukai belajar hal baru."
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/desc1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/titleAchievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Prestasi dan Partisipasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/contactText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/achievements"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• KODE: Kalimantan Pra-KDMI 2024 – Pembicara Terbaik 2 (Bersama), Kategori Novice\n• Kompetisi Debat Nasional Sociology Fair 2024 – Juara 3\n• Universitas Ciputra Debate Competition 2024 – Peserta\n• Education British Parliamentary Debate Competition 2024 – Peserta\n• KDMI Fakultas Teknik Universitas Lambung Mangkurat 2024 – Peserta\n• KDMI Universitas Lambung Mangkurat 2025 – Breaking\n• KDMI Fakultas Teknik Universitas Lambung Mangkurat 2025 – Pembicara Terbaik 2\n• KDMI Universitas Lambung Mangkurat 2025 – Breaking\n• Universitas Ciputra Debate Competition 2025 – Peserta\n• Education British Parliamentary Debate Competition – Breaking 6\n• Pemilihan Mahasiswa Berprestasi 2025 Tingkat Fakultas – Juara 2\n• Pemilihan Mahasiswa Berprestasi 2025 Tingkat Universitas – Peserta Terpilih Kategori"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            app:layout_constraintTop_toBottomOf="@id/titleAchievements"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
